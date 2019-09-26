@@ -6,4 +6,7 @@ var Jawwad = new Person('Jawwad', 'Test', "testing123.com");
 //Open Close Principle
 const Rectangle = require('./OpenClosePrinciple/Rectangle')
 var myShape = new Rectangle(2, 9);
-console.log(myShape.area)
+
+//Liskov Subtitution Principle
+const Shape = require('./LiskovSubtitutionPrinciple')
+Shape.getArea(myShape)
